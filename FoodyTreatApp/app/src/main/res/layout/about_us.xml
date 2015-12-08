@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:weightSum="1">
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:typeface="serif"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us"
+        android:textColor="#ffffff"
+        android:id="@+id/tvAboutUs"
+        android:layout_weight="1"/>
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:weightSum="1">-->
+
+    <!--<TextView android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textSize="15dp"-->
+    <!--android:text="Email us: "-->
+    <!--android:drawableRight="@drawable/email"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:id="@+id/tvEmailUs"-->
+    <!--android:layout_marginBottom="5dp"-->
+    <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#CBCBCB"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:weightSum="2"
+        android:layout_gravity="center_horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="@string/feedback"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:id="@+id/tvFeedback"
+            />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Visit our website: "
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:id="@+id/tv1"
+            android:layout_weight="1" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="@string/website"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:id="@+id/tvWebsite"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:orientation="horizontal"
+
+        android:weightSum="4">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/ivFb"
+            android:src="@drawable/fb"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/ivTwitter"
+            android:src="@drawable/twitter"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/ivLinkedin"
+            android:src="@drawable/linkedin"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/ivGoogleplus"
+            android:src="@drawable/google_plus"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:weightSum="3"
+        >
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="2dp"
+            android:background="#CBCBCB"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:autoLink="all"
+            android:foregroundGravity="bottom"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/footer"
+            android:linksClickable="true"
+            android:id="@+id/tvfooter"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>

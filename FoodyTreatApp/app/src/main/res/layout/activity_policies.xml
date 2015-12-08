@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/back"
+        android:orientation="vertical"
+        android:id="@+id/linearPolicies"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Policies"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:weightSum="8">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#CBCBCB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:textColor="#494949"
+                android:id="@+id/tvCorporateTieUp"
+                android:text="Corporate Tie Up"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/arrow"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="7dp"
+                android:textColor="#494949"
+                android:id="@+id/tvCorporateTieUp_text"
+                android:text="@string/CorporateTieUp"
+                android:layout_weight="1" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#CBCBCB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:textColor="#494949"
+                android:id="@+id/tvDisclaimer"
+                android:text="Disclaimer"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/arrow"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="7dp"
+                android:textColor="#494949"
+                android:id="@+id/tvDisclaimer_text"
+                android:text="@string/Disclaimer"
+                android:layout_weight="1" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#CBCBCB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:textColor="#494949"
+                android:id="@+id/tvPrivacyPolicy"
+                android:text="Privacy Policy"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/arrow"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="7dp"
+                android:textColor="#494949"
+                android:id="@+id/tvPrivacyPolicy_text"
+                android:text="@string/PrivacyPolicy"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#CBCBCB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:textColor="#494949"
+                android:id="@+id/tvShippingPolicy"
+                android:text="Shipping Policy"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/arrow"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="7dp"
+                android:textColor="#494949"
+                android:id="@+id/tvShippingPolicy_text"
+                android:text="@string/ShippinPolicy"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#CBCBCB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

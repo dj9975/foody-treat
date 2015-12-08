@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foody Treat</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <string name="price">₹ 3000</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_customer_profile">Customer Profile</string>
+    <string name="title_activity_cart__details">Cart Details</string>
+
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_signing_in">Signing in with Google+…</string>
+    <string name="status_signed_out">Signed out</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="signed_in_as">Signed in as %s</string>
+
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">User\'s profile picture.</string>
+    <string name="mock_server_has_token">Mock server has refresh token?</string>
+    <string name="request_server_auth_code">Request server auth code?</string>
+    <string name="configuration_error">Error: the value of WEB_CLIENT_ID or SERVER_BASE_URL is not  set correctly. This will cause errors when requesting a server auth code.</string>
+    <string name="tract_your_order">Track Your \nOrder</string>
+    <string name="user_email_id">Login</string>
+    <string name="forget_password"><u> forgot password?</u></string>
+    <string name="title_activity_generate__bill">Order Placed</string>
+    <string name="care">If you need further assistance, please do write us on <u>contactus@foodytreat.com</u></string>
+    <string name="title_activity_address_details">Address Details</string>
+    <string name="button_label_on">\u2713 on</string>
+    <string name="about_us">\t We are a home delivery service venture specializing in the delivery of cakes and other related products with a difference. We are hopeful that our offerings will resonate with people as we go into each home. We are proud to launch the service for the citizens of Pune City to begin with and hope you will support us for making lives better for you, We look forward to expanding into more regions in the near future and are thrilled to share the Foody Treat experience with Punekars.”</string>
+
+   <string name="footer">  DEVELOPED BY \n <u>XPERTRIX IT SOLUTIONS PVT LTD </u></string>
+    <string name="title_activity_edit_personal_profile">EditPersonalProfile</string>
+    <string name="change_password"> <u>Change Password</u></string>
+    <string name="app_id">1488848684750879</string>
+
+    <string name="faq"> <b>Q. Do you serve fresh products every day?</b>
+\n Yes, all Foody Treat Vendors/ Merchants/ agents/ cake shops, in all cities, offer only soft and fresh products which are delivered daily.\n
+
+\n <b>Q. What do you do with unsold products?</b>
+\n Following strict protocols Foody Treat Vendors/ Merchants/ agents/ cake shops returns unsold Cakes, Pastries, Savouries and Snacks, etc. on a daily basis to the concerns. Depending on the state of deterioration, if still edible, the Cakes, Pastries, Savouries, etc. and Snacks are given to charity or used as cattle feed by the concerns. If products are stale, the entire lot is destroyed by the concerns.\n
+
+\n<b>Q. What is the shelf life of Cakes and Pastries?</b>
+Fresh Cream Cakes and Pastries 2 days if refrigerated.\n
+
+Butter Cream Cakes and Pastries 2 to 3 days if refrigerated. \n
+
+\n<b>Q. How many manufacturing units do you have in India?</b>
+\n Foody Treat does not manufacture any cake or any other related items.\n
+
+\n<b>Q. How does the Gift a Smile online concept work?</b>
+\n All you need to do is log on to www.Foodytreat.com from there; you can browse the products and services with few easy simple steps, by selecting occasion, and different categories given in the Filter Bar. So you click your choice of product, purchase it for your loved ones, and Foody Treat will deliver your surprise to your loved ones. This is the theme of Gift a Smile online with Foody Treat.\n
+
+\n<b>Q. What are the various payment options?</b>
+\n 1. Credit Cards (Visa / MasterCard / American Express/RU Pay/ Etc.)
+
+\n 2. Debit Cards.
+
+\n 3. Net Banking. (Only for Indian banks)
+\n 4. Cash on Delivery (Few places only)
+\n 5. Swipe your card at home.\n
+
+\n<b>Q. Can I have a Personalized Message on the Cake?</b>
+\n Of course you can! While filling the details in the product section, kindly specify your Message in the "Message on Cake" field and Foody Treat will send a personalised Gift to your loved ones.\n
+
+\n<b>Q. What is the Lead Time to execute cake deliveries?</b>
+\n We require at least 2-4 working hours (can differ from cake to cake) to bake a fresh cake and deliver it to your loved ones with a personalised message on our exclusive Foody Treat Gift.\n
+
+\n<b>Q. Is the Payment Gateway on the Foody Treat Website Secure?</b>
+\n The Payment Gateway for www.Foodytreat.com complies with the Standard Industry Level Security and are verified by the required Security Providers:\n
+</string>
+
+<string name="CorporateTieUp">
+<b>Corporate Tie Up</b>\n
+
+\n<b>Are you looking for a high-impact corporate gift?</b>
+
+\n<b>Tired of impersonal gift cards, floral arrangements, and other “standard” choices that often fail to inspire?</b>
+
+\n<b>Wouldn’t you like to give something that reflects your spirit and style?</b>
+
+\n Our company specializes in Providing unique corporate gifts and promotional items that get people talking and sharing. We’re large enough to handle any size of order, flexible enough to give you unlimited creativity, and committed to making every step of the process both personal and professional.\n
+\n We’ll work with you to accommodate any size order – large or small – and we can help with your shipping needs as well. Contact us to learn how we can help your business Needs with all your gift giving needs and exceed your goals.
+
+\nContact information:
+
+\nPhone: 91-8237218535
+\nEmail: Admin@Foodytreat.com
+
+</string>
+
+    <string name="Disclaimer">
+     <b>  Disclaimer</b> \n \n
+
+You assume the sole risk of making use or Relying on the information, Material, Products and Services available on this site, Foody Treat Makes No Representations about the suitability, completeness, Timeliness, Reliability, Legality in your Jurisdiction, or accuracy of the information, Materials, Products and services described or contained in the site for any purpose, all information ,Material ,Products and services are provided “AS IS” without warranty of any kind, including all implied warranties and conditions of merchantability, fitness for a particular purpose, Title and Non-Infringement. \n
+While Foody Treat Endeavors to provide the most accurate, Up-To-Date Information, Materials, Products and services available, the site may contain Inaccuracies, Typographical Errors or Outdated Information. More over Foody Treat May Make the Modifications or Changes to the site Or Information, Materials, Products and services Described By the Merchant, Foody Treat is not Responsible for and not Honor Typographical or Pricing Errors on the site, Foody Treat Reserves the right to Refuse or cancel Orders at Any time , Including but not limited to orders that contain incorrect prices or products descriptions, Orders in which Foody Treat Believes the customer has violated applicable law and order that Foody Treat Believes are harmful to Foody Treat or its vendor/Suppliers/ Affiliates/ Agents/Service Providers. Foody Treat Also Reserves the right to limit the number of items purchased or orders placed through this site.
+ </string>
+
+    <string name="PrivacyPolicy">
+       <b>  Privacy Policy </b> \n \n
+
+\n Foody Treat is the sole owner of the information collated on www.Foodytreat.com
+this privacy statement applies only to information collated by this Site.
+
+\n  <b> Special Offers and Updates </b>
+\n We may occasionally send you information on products,
+services, special deals, and promotions.
+Out of respect for your privacy,
+we present the option not to receive these types of communications.
+
+\n  <b> Press Releases and Newsletters </b>
+\n If you request to receive our press release(s)
+or newsletter(s), we will use your name and email address
+to send these documents to you. Out of respect for your privacy,
+If you no longer wish to receive our press releases,
+newsletter and promotional communications,
+you may opt-out of receiving them by following the instructions
+included in each newsletter or communication or by emailing us at Admin@Foodytreat.com
+
+\n  <b> Communications </b>
+\n You consent to receive communications from us by e-mail,
+SMS or any other communication made electronically,
+verbally or physically through post. You agree that all agreements, notices,
+disclosures and other communications that FOODY TREAT provides to you by e-mail or
+in any other aforementioned mediums satisfy any legal requirement that such communications be in writing.
+
+\n  <b> Legal Disclaimer </b>-->
+\n We reserve the right to disclose your personally identifiable information as
+required by law and when we believe that disclosure is necessary to protect our rights
+and/or to comply with a judicial proceeding, court order, or legal process served on our Web site.
+
+\n  <b> Log Files </b>-->
+\n As is true of most Web sites, we gather certain information automatically and store
+it in log files. This information includes Internet protocol (IP) addresses, browser type,
+internet service provider (ISP), referring or exit pages, operating system, date/time stamp, and click stream data.
+
+\n We use this information, which does not identify individual users,
+to analyze trends, to administer the site, to track users movements around the site and to gather
+demographic information about our user base as a whole.
+
+\n  <b>  Links to Other Sites </b>
+\n This privacy statement applies only to information collated by this Web site.
+This Web site contains links to other sites that are not owned or controlled by Foody Treat.
+Please be aware that we, Foody Treat are not responsible for the privacy practices of such other sites.
+We encourage you to be aware when you leave our site and to read the privacy statements of each and every
+Web site you access to review their privacy practices.
+
+\n  <b> Access to Personally Identifiable Information </b>
+\n If you’re personally identifiable information changes, or if you no longer desire our
+service, you may correct, update, or delete by emailing our Customer Support at admin@Foodytreat.Com or
+by contacting us by telephone or by post.
+
+\n  <b> Security </b>\n The security of your personal information is important to us.
+We do not use any encryption on our forms, as we do not collect credit card numbers,
+social security numbers or any other sensitive information that can be used in identity theft.
+
+\n  <b> Business Transitions </b>
+\n In the event Foody Treat goes through a business transition,
+such as a merger, acquisition by another company, or sale of all or a
+portion of its assets, your personally identifiable information will likely be among the assets
+transferred. You will be notified via prominent notice on our Web site of any such change in
+ownership or control of your personal information.
+
+\n  <b> Changes in this Privacy Statement </b>
+\n If we decide to change our privacy policy, we will post those changes to this privacy statement
+on the homepage and other places we deem appropriate so that you are aware of what information we collect,
+how we use it, and under what circumstances, if any, we disclose it.
+\n We reserve the right to modify this privacy statement at any time, so please review it periodically.
+If we make material changes to this policy, we will notify you here, by email, or by means of a notice on our home page.
+    \n  <b> Quality Standards and Durability of the Products. </b>
+
+\n The sole responsibility of the quality standards, durability and other related information would only
+be available with the concerned Vendor or Merchant or Supplier of the product and the concerned Vendor or Merchant or
+Supplier of the product would be responsible for the same.
+
+    </string>
+
+    <string name="ShippinPolicy">
+     <b> Shipping Policy </b> \n \n
+\n     By using this site the user has unconditionally accepted the terms and conditions of use as given here under and/or elsewhere in the site
+\n     We CANNOT commit any exact fix time for delivery. Deliveries will be made between tentatively on the given date and time.
+ \n    Same Day Delivery option is available only for Pune locations and order should be given at least 2 hours before the estimated delivery time.
+\n     Mid-night Delivery will be made between 11.30 pm to 12.30 am on mentioned / asked delivery date.
+ \n    Products categorised in Premium Chocolates, Flowers, Premium Assortment, Collectible Gifts, Greeting Cards and Marvel Cakes, etc are delivered by us. We try our best to deliver this product on the delivery day and Time. However, in unavoidable circumstances or wrong pin code these products may reach before or after delivery date mentioned.
+ \n    The taste, appearance and quality of cakes may vary for from place to place and the respective vendor to vendors as we will be delivering through our vendor
+ \n    Flowers May be delivered separately by the vendors associated with us.
+ \n    The delivery will NOT be redirected / redelivered to any other address in any circumstance.
+ \n    The selected product will be delivered only in the city it is mentioned as “available” on this Site.
+ \n    Delivery might happen through “Other VENDOR” outlet in case of some urgency or non-availability of particular product / Form the desired Outlet in vicinity of the delivery location.
+ \n    We will attempt delivery of the items ONCE. In case the delivery is not executed during the attempt, the customer shall still be charged for the order and no redelivery will be possible. We will consider the order as “executed” in the following cases : \n
+\n  i. Delivery not done due to wrong address.
+\n ii. Recipient not available.
+\n iii.    Premises locked.
+\n iv. Wrong phone or Cell or Extension number/ not working / no reply or not connecting / NOT reachable and delivery is not done.
+\n v.  Recipient refused the products.
+\n vi. Delivered the product at the Gate / Reception / Neighbor.
+ \n    Please note that Cakes, Chocolates, Cookies, Flowers and other perishable products are sourced locally at the delivery location and will be hand delivered.
+ \n    No Deliveries on prescribed holidays.
+ \n    The images displayed on the site are indicative in nature. Actual product may vary in appearance, shape or design as per the availability.
+ \n    We reserve the right to substitute the products with equal or higher value in case of non-availability of the desired product.
+ \n    In case of floods / Heavy Rains / National Bandh or such other unavoidable reasons, we reserve the right to reschedule the delivery for another date or time.
+ \n    No change in instructions can be entertained after placing the order.
+ \n    Orders once placed cannot be cancelled.
+ \n    In case the product is not delivered due to any of the above reasons, the update will be available on the website (Order History) and the same can be collected from our customer support team.
+ \n    We will not entertain any complaint for any product after ½ hour (HALF HOUR) of the time of delivery.
+ \n    Proof of delivery will be provided in case of any dispute in delivery.
+ \n    For traded commodities, respective brand owners will be responsible for the quality of product.
+ \n    Delivery of certain branded items may not be possible / delayed under certain un-controllable circumstances such as product is not available in the market or discontinued by the manufacturer. In such cases, similar product, nearest to the description equal or higher in value shall be delivered.
+ \n    No Complimentary product will be given with any of the placed order.
+ \n    If the products are in outskirts of serviceable area it will take more than 48 hrs delivery time.
+ \n    No modification is possible once the date is specified.
+ \n    Message should not include any special characters like ",$%@!# as our system does not support.
+ \n    Cake should be refrigerated and should be consumed within 1 hour.
+ \n    Product once consumed or accepted cannot be cancelled or refunded in any circumstance. \n
+
+    </string>
+
+    <string name="website"><u>www.foodytreat.com</u></string>
+    <string name="feedback"> Feedback:<u> contactus@foodytreat.com </u></string>
+    <string name="title_activity_select_cake_filter">Select Cake Filter</string>
+
+</resources>

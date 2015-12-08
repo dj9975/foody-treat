@@ -1,0 +1,91 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vrushali.foodytreat.AddressDetails">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_button"
+        android:showAsAction="always"
+        />
+    <item android:id="@+id/menu_overflow"
+        android:title=""
+        android:icon="@drawable/menu_overflow"
+        android:showAsAction="always"
+        >
+        <menu>
+
+
+            <item android:id="@+id/menu_email_id"
+                android:showAsAction="never"
+                android:orderInCategory="1"
+                android:title="My Profile"
+                android:icon="@drawable/menu_email_id"/>
+            <item
+                android:id="@+id/menu_viewCart"
+                android:orderInCategory="2"
+                android:icon="@drawable/menu_view_cart"
+                app:showAsAction="never"
+                android:title="View Cart"
+                />
+
+            <item
+                android:id="@+id/menu_wishlist"
+                android:orderInCategory="2"
+                android:icon="@drawable/fav"
+                app:showAsAction="never"
+                android:title="Wishlist"
+                />
+            <item android:id="@+id/menu_orderhistory"
+                android:showAsAction="never"
+                android:orderInCategory="3"
+                android:icon="@drawable/menu_order_history"
+                android:title="Order History"/>
+            <item
+                android:id="@+id/menu_trackorder"
+                android:orderInCategory="4"
+                android:icon="@drawable/menu_track_order"
+                app:showAsAction="never"
+                android:title="Track Order"
+                />
+            <item
+                android:id="@+id/menu_logout"
+                android:orderInCategory="5"
+                android:icon="@drawable/menu_logout"
+                app:showAsAction="never"
+                android:title="Logout"
+                />
+            <item
+                android:id="@+id/menu_legal"
+                android:orderInCategory="6"
+                android:icon="@drawable/legal"
+                app:showAsAction="never"
+                android:title="Legal"
+                />
+
+            <item
+                android:id="@+id/menu_about_us"
+                android:orderInCategory="7"
+                android:icon="@drawable/about_us"
+                app:showAsAction="never"
+                android:title="About Us"
+                />
+            <item
+                android:id="@+id/menu_faq"
+                android:orderInCategory="8"
+                android:icon="@drawable/menu_faq"
+                app:showAsAction="never"
+                android:title="FAQ"
+                />
+
+            <item
+                android:id="@+id/menu_rate_app"
+                android:orderInCategory="9"
+                android:icon="@drawable/menu_rate_this_app"
+                app:showAsAction="never"
+                android:title="Rate App"
+                />
+
+        </menu>
+    </item>
+</menu>

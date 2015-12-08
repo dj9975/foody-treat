@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C2C2A3">
+
+    <RatingBar
+        android:id="@+id/CakeRating"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btnRatingSave"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_shape3"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"/>
+</LinearLayout>

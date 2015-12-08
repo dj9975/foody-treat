@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/back"
+    android:id="@+id/linearCartDetails"
+    tools:context="com.example.vrushali.foodytreat.Cart_Details">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Proceed To Payment"
+        android:background="@drawable/button_shape"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnProceedToPayment"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/lvCartDetails"
+        android:layout_weight="8.6"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.2"
+        android:weightSum="2"
+        android:id="@+id/lin"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Total Shipping Charge"
+            android:layout_weight="1.2"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/tvCartShipCharge"
+            android:textColor="#30AEE9"
+            android:layout_weight="0.8"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.2"
+        android:weightSum="2"
+        android:id="@+id/linearLayout1"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Total Price"
+            android:layout_weight="1.2"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/tvCartTotal"
+            android:textColor="#30AEE9"
+            android:layout_weight="0.8"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

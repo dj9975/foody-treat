@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:id="@+id/ivCartCakePicItemList"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"
+        android:weightSum="3"
+        android:background="#ffffff">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Chocolate Cake"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:id="@+id/tvCartItemName"
+     />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="500gm"
+        android:textStyle="italic"
+        android:layout_weight="1"
+        android:id="@+id/tvCartItemRate"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="300*1"
+        android:textStyle="italic"
+        android:layout_weight="1"
+        android:id="@+id/tvCartItemQnt"
+     />
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:weightSum="3"
+        android:layout_marginLeft="0dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCartItemTotal"
+            android:text="@string/price"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:textColor="#30AEE9"
+            android:textStyle="bold"
+         />
+
+            <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+            android:src="@drawable/delete"
+                android:layout_gravity="center_horizontal"
+            android:id="@+id/ivDeleteItemFromCart" />
+        </LinearLayout>
+    <!--<View-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:id="@+id/view"-->
+     <!--/>-->
+
+</LinearLayout>

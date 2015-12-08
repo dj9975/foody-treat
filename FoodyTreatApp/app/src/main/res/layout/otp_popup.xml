@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="50dp"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="OTP has been sent on your mobile number.
+        \n  It may takes two minutes to delivered"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your 4 digit OTP"
+        android:textAlignment="center"
+        android:maxLength="4"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:id="@+id/edOtp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Confirm  "
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_shape3"
+        android:id="@+id/btnConfirmOtp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/linearSelectVendor"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:text="Select From Vendors"
+        android:textColor="#ffffff"
+        android:id="@+id/tvSelectVendor"
+        android:layout_gravity="center_horizontal" />
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview_view1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:columnWidth="130dp"
+        android:paddingTop="5dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+
+        android:gravity="center"/>
+
+</LinearLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/gridview_view1"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:columnWidth="130dp"-->
+    <!--android:numColumns="2"-->
+    <!--android:verticalSpacing="4dp"-->
+    <!--android:horizontalSpacing="4dp"-->
+    <!--android:stretchMode="columnWidth"-->
+
+    <!--android:gravity="center"/>-->

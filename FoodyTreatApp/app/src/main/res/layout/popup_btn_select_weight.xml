@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:weightSum="5">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvAvailWeights"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:layout_weight="4"
+     />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="  Done  "
+        android:background="@drawable/edit_text_shape3"
+        android:id="@+id/btnCakeWeightSelected"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"/>
+
+</LinearLayout>

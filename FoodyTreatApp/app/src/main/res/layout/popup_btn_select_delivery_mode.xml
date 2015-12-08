@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/textView4">
+
+            <RadioButton
+                android:id="@+id/rbDelMode1"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="2 hr " />
+
+            <RadioButton
+                android:id="@+id/rbDelMode2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="24 hr" />
+
+            <RadioButton
+                android:id="@+id/rbDelMode3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="48 hr" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="  Done  "
+        android:background="@drawable/edit_text_shape3"
+        android:id="@+id/btnDeliveryModeSelected"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

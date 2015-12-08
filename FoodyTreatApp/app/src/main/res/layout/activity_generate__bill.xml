@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:background="#3399CC"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/layoutBill"
+        android:background="@drawable/border_zigzag"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:background="#3399CC"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true">
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/checkbox_on_background"
+                    android:text="Your order has been placed successfully."
+                    android:textColor="#ffffff"
+                    />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp"
+                    android:background="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Order Id:"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/tvBillOrderId"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                android:editable="false"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E5E5E5"/>
+
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Customer Name:"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/tvBillCustomerName"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E5E5E5"/>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Contact Number:"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/tvBillContactNo"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E5E5E5"/>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:text="Price:"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/tvBillPrice"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E5E5E5"/>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Shipping Charges:"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/tvBillShipCharge"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text=""
+
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E5E5E5"/>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+
+                android:text="Grand Total:"
+                android:layout_weight="1"
+                android:id="@+id/textView4" />
+
+            <TextView android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/tvBillAmount"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text=""
+
+                 />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="82dp"
+            android:paddingTop="-10dp"
+            android:src="@drawable/approved_stamp"
+            android:id="@+id/imgOverlayFavourites"
+            android:layout_marginLeft="99dp"
+            android:layout_marginStart="99dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4"
+            android:layout_gravity="right" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/care"
+                android:gravity="center"
+                android:id="@+id/tvBillEmail"
+                android:textColor="#3399CC"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnBillPlaceOrder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/button_shape"
+                android:text="Place Another Order "
+
+                android:textColor="#fff"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

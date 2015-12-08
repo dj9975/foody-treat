@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:weightSum="10">
+    <Button android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/filter_text_back"
+        android:text="Occassion"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        />
+    <ListView
+        android:id="@+id/listOccassion"
+        android:layout_weight="4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/filter_text_back"
+        android:text="Cake Type"
+        android:layout_weight="1"
+        android:textColor="#000000"/>
+
+    <ListView
+        android:id="@+id/listCakeType"
+        android:layout_weight="4"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"/>
+    <!---->
+</LinearLayout>

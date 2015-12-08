@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xpertrixitsolution.com.foodytreat" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission android:protectionLevel="signature"
+        android:name="xpertrixitsolution.com.foodytreat.permission.C2D_MESSAGE" />
+    <uses-permission android:name="xpertrixitsolution.com.foodytreat.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".Fb_MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <meta-data android:name="com.parse.push.notification_icon" android:resource="@drawable/logo"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Sign Up"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SelectVendor"
+            android:label="Select Vendor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuItems.MenuItemOrderHistory"
+            android:label="Order History"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cake_Details"
+            android:label="Cake Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectCake"
+            android:label="Select Cake"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Delivery_Details"
+            android:label="Delivery Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cart_Details"
+            android:label="@string/title_activity_cart__details" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Generate_Bill"
+            android:label="@string/title_activity_generate__bill" >
+        </activity>
+        <activity
+            android:name=".AddressDetails"
+            android:label="@string/title_activity_address_details" >
+        </activity>
+        <activity android:name=".MenuItems.About_us"
+            android:label="About Us"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MenuItems.MenuPolicies"
+            android:label="Foody Treat"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".MenuItems.MenuFAQ"
+            android:label="FAQ"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".MenuItems.EditPersonalProfile"
+            android:label="My Profile"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Filter.SelectCakeFilter"
+            android:label="@string/title_activity_select_cake_filter"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- parse library details-->
+        <service android:name="com.parse.PushService" />
+        <receiver android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="xpertrixitsolution.com.foodytreat" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

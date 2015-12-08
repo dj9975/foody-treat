@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:weightSum="5">
+
+    <FrameLayout
+        android:layout_weight="4.5"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+    </FrameLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/btnApplyFilter"
+            android:layout_weight="0.5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_shape"
+            android:text="Apply" />
+        <!--<Button-->
+            <!--android:id="@+id/btnApplyFilter"-->
+            <!--android:layout_weight="0.1"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_width="130dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal|bottom"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:background="@drawable/button_shape"-->
+            <!--android:text="Apply" />-->
+
+
+
+
+
+    <!--
+    <Button
+        android:id="@+id/btnApplyFilter"
+      android:layout_weight="0.5"
+        android:layout_marginTop="10dp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_shape"
+        android:text="Apply" />
+        -->
+</LinearLayout>

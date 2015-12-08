@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/back"
+    android:id="@+id/relativeSelectCake"
+    android:layout_height="fill_parent">
+
+    <!--<Button-->
+    <!--android:id="@+id/btnFilters"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:background="@drawable/edit_text_shape2"-->
+    <!--android:text="Filters"-->
+    <!--android:textSize="20dp"-->
+    <!--android:textColor="#ffffff"-->
+    <!--/>-->
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvCakeVendors"
+        android:layout_alignParentLeft="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentStart="true"
+     />
+
+</RelativeLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:background="@drawable/back"-->
+    <!--android:id="@+id/relativeSelectCake"-->
+
+    <!--android:layout_height="fill_parent">-->
+    <!--<android.support.design.widget.CoordinatorLayout-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/back">-->
+
+        <!--<LinearLayout android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/viewA"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="2dp"-->
+                <!--android:layout_weight="0.03"-->
+
+                <!--android:orientation="horizontal"/>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/viewB"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="2dp"-->
+                <!--android:layout_weight="0.52"-->
+
+                <!--android:orientation="horizontal">-->
+
+                <!--<ListView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/lvCakeVendors"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:divider="@android:color/transparent"-->
+                    <!--android:dividerHeight="10.0sp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_alignParentStart="true" />-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:id="@+id/fab"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:clickable="true"-->
+            <!--android:src="@drawable/filter_floating_icon"-->
+            <!--app:layout_anchor="@id/viewA"-->
+            <!--app:layout_anchorGravity="bottom|right"/>-->
+
+        <!--&lt;!&ndash;<android.support.design.widget.FloatingActionButton&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/fab2"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_margin="16dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/tick_green"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:layout_anchor="@id/viewA"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:layout_anchorGravity="bottom|center"/>&ndash;&gt;-->
+
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+<!--</RelativeLayout>-->
+

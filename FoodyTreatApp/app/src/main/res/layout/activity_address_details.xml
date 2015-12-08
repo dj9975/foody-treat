@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="40dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edBuildingName"
+                android:hint="Building name"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edRoadName"
+                android:hint="Road name"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edArea"
+                android:hint="Area "
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edPincode"
+                android:hint="Pincode"
+                android:maxLength="6"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edEnterCity"
+                android:hint="Pune"
+                android:editable="false"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:id="@+id/edEnterState"
+                android:hint="Maharashtra "
+                android:editable="false"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Shipping address is same as billing address"
+                android:textColor="#30aee9"
+                android:id="@+id/cbShipAddSame"
+
+                android:layout_weight="0.5"
+                />
+
+            <Button
+                android:id="@+id/btnShippingAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:clickable = "false"
+                android:background="@drawable/edit_text_shape2"
+                android:text="↓ Enter Shipping Address ↓"
+                android:textColor="#fff"
+                android:layout_weight="0.30" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edBuildingNameShipping"
+                android:hint="Building name"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edRoadNameShipping"
+                android:hint="Road name"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edAreaShipping"
+                android:hint="Area "
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edPincodeShipping"
+                android:hint="Pincode"
+                android:maxLength="6"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:id="@+id/edEnterCityShipping"
+                android:hint="Pune"
+                android:editable="false"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:id="@+id/edEnterStateShipping"
+                android:hint="Maharashtra "
+                android:editable="false"
+                android:background="@drawable/edit_text_shape"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="    Done    "
+                android:id="@+id/btnSaveAddress"
+                android:background="@drawable/button_shape"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

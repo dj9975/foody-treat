@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    >
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textSize="45dp"
+            android:id="@+id/tvRegister"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your First Name"
+            android:gravity="left"
+            android:background="@drawable/edit_text_shape"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:id="@+id/edFirstName"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Last Name"
+            android:gravity="left"
+            android:inputType="textWebEmailAddress"
+            android:background="@drawable/edit_text_shape"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="15dp"
+            android:id="@+id/edLastName"/>
+
+        <Button
+            android:id="@+id/btnSelectGender"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:clickable = "false"
+            android:background="@drawable/edit_text_shape2"
+            android:text="↓ Select Gender ↓"
+            android:textColor="#fff"
+            android:layout_weight="0.30" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGender"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/black_transperent_back"
+                android:orientation="horizontal"
+                >
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:background="@drawable/select_gender_male"
+            android:button="@android:color/transparent"
+
+            />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                 />
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/select_gender_female"
+            />
+            </RadioGroup>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@drawable/edit_text_shape"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Select DOB"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnDob" />
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="  Email Id"
+            android:gravity="left"
+            android:background="@drawable/edit_text_shape"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:inputType="textEmailAddress"
+            android:layout_weight="1"
+            android:id="@+id/edEmailId"
+            android:layout_marginTop="15dp"/>
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="  Mobile No."
+            android:gravity="left"
+            android:inputType="number"
+            android:background="@drawable/edit_text_shape"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:id="@+id/edContactNo"
+            android:layout_marginTop="15dp"/>
+
+
+        <EditText android:layout_width="fill_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:hint=" Password"
+            android:gravity="left"
+            android:background="@drawable/edit_text_shape"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:id="@+id/edPass"
+            android:layout_marginTop="15dp"/>
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:gravity="left"
+            android:hint=" Re-enter Password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/edit_text_shape"
+            android:layout_weight="1"
+            android:id="@+id/edRePass"
+            android:layout_marginTop="15dp"/>
+
+
+
+        <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_shape3"
+            android:text="Register"
+            android:id="@+id/btnRegister"
+            android:textColor="#fff"
+            android:layout_weight="0.30" />
+
+        <Button
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_shape2"
+            android:text="  Already Registered! Login Me  "
+            android:textColor="#fff"
+            android:layout_weight="0.30" />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

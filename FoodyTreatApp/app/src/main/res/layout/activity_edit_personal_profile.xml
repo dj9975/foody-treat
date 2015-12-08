@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/back"
+    android:id="@+id/llayout"
+    tools:context="com.example.vrushali.foodytreat.EditPersonalProfile">
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your First Name"
+        android:gravity="left"
+        android:background="@drawable/edit_text_shape"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:id="@+id/edProfileFirstName"/>
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Last Name"
+        android:gravity="left"
+        android:inputType="textWebEmailAddress"
+        android:background="@drawable/edit_text_shape"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="15dp"
+        android:id="@+id/edProfileLastName"/>
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Email Id"
+        android:gravity="left"
+        android:background="@drawable/edit_text_shape"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:inputType="textEmailAddress"
+        android:layout_weight="1"
+        android:id="@+id/edProfileEmailId"
+        android:layout_marginTop="15dp"/>
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Mobile No."
+        android:gravity="left"
+        android:inputType="number"
+        android:background="@drawable/edit_text_shape"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="1"
+        android:maxLength="10"
+        android:id="@+id/edProfileContactNo"
+        android:layout_marginTop="15dp"/>
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Address"
+        android:gravity="left"
+        android:background="@drawable/edit_text_shape"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="1"
+        android:id="@+id/edProfileAddress"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/change_password"
+        android:textColor="#ffffff"
+        android:id="@+id/tvChangePassword"
+        android:layout_gravity="right"
+        android:layout_weight="1" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom"
+        android:weightSum="2"
+        tools:context="com.example.vrushali.foodytreat.EditPersonalProfile">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_shape2"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:id="@+id/btnProfileCancel"
+            android:layout_weight="1" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_shape2"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:id="@+id/btnProfileSave"
+        android:layout_weight="1" />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5">
+
+        <RadioGroup
+            android:id="@+id/rgSelectPriceFilter"
+            android:layout_weight="5"
+            android:layout_width="90dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+
+            >
+            <RadioButton
+                android:id="@+id/rbCost1"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+
+                android:background="@drawable/cost_filter_shape"
+                android:button="@android:color/transparent"
+                />
+            <!--android:checked="true"-->
+
+            <RadioButton
+                android:id="@+id/rbCost2"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_gravity="right"
+                android:button="@android:color/transparent"
+                android:background="@drawable/cost_filter_shape2"
+                />
+
+            <RadioButton
+                android:id="@+id/rbCost3"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_gravity="right"
+                android:button="@android:color/transparent"
+                android:background="@drawable/cost_filter_shape3"/>
+            <RadioButton
+                android:id="@+id/rbCost4"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_gravity="right"
+                android:button="@android:color/transparent"
+                android:background="@drawable/cost_filter_shape4"/>
+
+        </RadioGroup>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

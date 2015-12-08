@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="blue">#ff005979</color>
+    <color name="red">#fe3b00</color>
+
+
+    <color name="black">#ff000000</color>
+    <color name="gray">#ff363636</color>
+    <color name="light_blue">#ff047fdf</color>
+    <color name="light_gray">#ffd6e1e6</color>
+    <color name="light_green">#ff3d4b4b</color>
+
+    <color name="smoke_white">#ffd6e1e6</color>
+    <color name="gray_blue">#3c748d</color>
+    <color name="dark_blue">#ff00577d</color>
+    <color name="gray_green">#ff5f747d</color>
+    <color name="orange">#ffff6203</color>
+
+    <color name="light_black">#90000000</color>
+
+    <color name="ColorPrimary">#fe3b00</color>
+    <color name="ColorPrimaryDark">#fe3b00</color>
+    <color name="tabsScrollColor">#fe3b00</color>
+</resources>
